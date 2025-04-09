@@ -2,7 +2,7 @@ import express from "express";
 import productsRouter from "./routes/products.router.js";
 import cartsRouter from "./routes/carts.router.js";
 
-const PORT = 8080;
+const PORT = 8000;
 const app = express();
 
 app.use(express.json());
